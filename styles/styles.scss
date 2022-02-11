@@ -1,5 +1,41 @@
-body{
-    padding:0;
-    margin: 0;
-    background-color:hsl(204, 43%, 93%);
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(204, 43%, 93%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-container {
+  height: 600px;
+  width: 600px;
+  //   background-color: red;
+}
+
+.upper {
+  height: 50%;
+  width: 100%;
+  background-color: green;
+}
+
+.lower {
+  height: 50%;
+  width: 100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  background-color: blue;
+}
+
+.right {
+  height: 100%;
+  width: 50%;
+  background-color: yellow;
 }
